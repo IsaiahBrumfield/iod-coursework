@@ -1,0 +1,31 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    width: 100%;
+    display: inline;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-style: oblique;
+    font-display: bold;
+}
+button {
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.column img {
+    width: 50%;
+    height: 50%;
+}
