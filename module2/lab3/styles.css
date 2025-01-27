@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Basic style */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: #f4f4f4;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.0em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-weight: 200;
+    color: white;
+    text-decoration: dotted;
+}
+
+/* Main content */
+main {
+    background-color: rgb(255, 254, 254);
+    margin: 20px;
+    padding: 20px;
+}
+
+.weather p {
+    color: black;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 254, 254);
+}
+
+.featured-story {
+    font-size: 1em;
+    color: rgb(22, 186, 227);
+}
+
+.content h2 {
+    font-size: 2em;
+}
+
+.section h3 {
+    font-size: 1.5em;
+    color: rgb(14, 14, 11);
+}
+
+.section ul {
+    list-style-type: none;
+}
+
+.section ul li {
+    margin-bottom: 8px;
+}
+
+.section ul li a {
+    color: rgba(22, 186, 227);
+    text-decoration: none;
+}
+
+.section ul li a:hover {
+    text-decoration: underline;
+}
