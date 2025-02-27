@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.slider {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: 0;
+    left: 50%;
+    animation: slide 5s infinite;
+}
+
+@keyframes slide {
+    0% {
+        top: 0;
+        background-color: black;
+    }
+    50% {
+        top: 80%;
+        background-color: red;
+    }
+    100% {
+        top: 0;
+        background-color: blue;
+    }
+    from { margin-bottom: 100%;
+    }
+        
+}
