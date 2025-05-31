@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d0c0c;
+    color: #333;
+}
+
+/* Main Container */
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Hero Section */
+.home {
+    background: url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80") center/cover no-repeat;
+    width: 100%;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: rgb(183, 222, 183);
+    margin-bottom: 2rem;
+}
+
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.home p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.services-heading {
+    background-image: url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    width: 100%;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: rgb(183, 222, 183);
+    margin-bottom: 2rem;
+}
+
+/* Sections */
+.home,
+.services,
+.before-and-after,
+.contact {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.services button,
+.contact button,
+.before-and-after button {
+    background-color: #28a745;
+}
+
+.services button:hover,
+.contact button:hover,
+.before-and-after button:hover {
+    background-color: #1e7e34;
+}
