@@ -1,18 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import LandingPage from './Componets/LandingPage';
-import Login from './Componets/Login';
-import Register from './Componets/Register';
-import Services from './Componets/Services';
-import Portfolio from'./Componets/Portfolio';
-import Contact from './Componets/Contact';
+import LandingPage from './Components/LandingPage';
+import Home from './Components/Home';
+import Login from './Components/Login';
+import Register from './Components/Register';
+import Services from './Components/Services';
+import Portfolio from'./Components/Portfolio';
+import Contact from './Components/Contact';
 
 
 function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/home" element={<Home />} />
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

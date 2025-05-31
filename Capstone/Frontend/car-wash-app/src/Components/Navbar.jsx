@@ -9,6 +9,7 @@ function Navbar() {
         <Link to="/">PHrozen 'N' Time</Link>
       </div>
       <ul className="navbar-links">
+        <li><Link to="/home">Home</Link></li>
         <li><Link to="/services">Services</Link></li>
         <li><Link to="/portfolio">Portfolio</Link></li>
         <li><Link to="/contact">Contact</Link></li>

@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from './Navbar';
+import Footer from './Footer';
 import './LandingPage.css';
 
 function LandingPage() {
@@ -17,18 +18,22 @@ function LandingPage() {
           <button onClick={() => navigate("/register")}>Register</button>
         </section>
 
-        <section className="services">
-          <button onClick={() => navigate("/services")}>Our Services</button>
-        </section>
+        <div className="services-heading">
+          <section className="services">
+            <button onClick={() => navigate("/services")}>Our Services</button>
+          </section>
 
-        <section className="before and after">
-          <button onClick={() => navigate("/portfolio")}>Portfolio</button>
-        </section>
+          <section className="before and after">
+            <button onClick={() => navigate("/portfolio")}>Portfolio</button>
+          </section>
 
-        <section className="contact">
-          <button onClick={() => navigate("/contact")}>Contact</button>
-        </section>
+          <section className="contact">
+            <button onClick={() => navigate("/contact")}>Contact</button>
+          </section>
+        </div>
       </div>
+
+      <Footer />
     </>
   );
 }
