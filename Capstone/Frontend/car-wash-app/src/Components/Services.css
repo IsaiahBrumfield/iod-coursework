@@ -1,0 +1,53 @@
+.services-page-container {
+    background-color: #e8f0fe;
+    padding: 2rem;
+    min-height: 8vh;
+    width: 800px;
+    background-image: url("https://images.unsplash.com/photo-1620584899131-a5ff5f8fbb03?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-page-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: red;
+}
+
+.services-list {
+    max-width: 900px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0rem;
+}
+
+.service-item {
+    background-color: transparent;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(5, 5, 5, 5);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.service-content {
+    flex: 1;
+}
+
+.service-content h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    color: red;
+}
+
+.service-content p {
+    margin: 0 0 0.5rem 0;
+    color: white;
+}
+
+.service-price {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: red;
+}

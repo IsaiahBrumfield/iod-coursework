@@ -1,0 +1,25 @@
+.page-container.contact {
+    background-color: #f0fff4;
+    background-image: url('https://kg1forged.com/wp-content/uploads/2023/05/346998030_199258049643027_4850192887589569710_n.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 800px;
+    height: 800px;
+}
+
+.textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    height: 100px;
+}
+
+.contact-list {
+    color: red;
+    font-size:x-large
+}
+
+.contact-page-heading {
+    color: red;
+}
+
